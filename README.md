@@ -1,4 +1,4 @@
-# TypeScript Webpack React.js bolirplate example
+# TypeScript Webpack React.js boilerplate example
 Just an example how to use those things together
 
 0. `npm install typings --global`
