@@ -1,0 +1,32 @@
+{
+  "name": "typescript-webpack-react-example",
+  "version": "1.0.0",
+  "description": "Just an example how to use those things together",
+  "main": "app/index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --colors --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artyomtrityak/typescript-webpack-react-example.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Webpack",
+    "React"
+  ],
+  "author": "Artyom Trityak <art.trityak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artyomtrityak/typescript-webpack-react-example/issues"
+  },
+  "homepage": "https://github.com/artyomtrityak/typescript-webpack-react-example#readme",
+  "devDependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
