@@ -4,7 +4,8 @@
   "description": "Just an example how to use those things together",
   "main": "app/index.ts",
   "scripts": {
-    "start": "webpack-dev-server --colors --progress"
+    "start": "webpack-dev-server --colors --progress",
+    "postinstall": "typings i"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "react-dom": "^15.0.2",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
+    "typings": "^0.8.1",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"
   }
