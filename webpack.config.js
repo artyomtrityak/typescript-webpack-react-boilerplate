@@ -10,10 +10,16 @@ module.exports = {
   },
   module: {
     preLoaders: [
+      {
+        test: /\.tsx?$/,
+        loaders: ['tslint'],
+        exclude: /node_modules/
+      }
     ],
     loaders: [
       {
         test: /\.tsx?$/,
+        exclude: /node_modules/,
         loader: 'ts-loader'
       }
     ]
