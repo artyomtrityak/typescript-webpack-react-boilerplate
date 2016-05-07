@@ -7,5 +7,5 @@ console.log('hello world');
 
 render(
   <App />,
-  document.getElementById('root')
+  document.querySelector('main')
 );
